@@ -1,0 +1,28 @@
+c:\users\bregza1309\documents\visual studio 2013\Projects\FFO PIZZA\FFO PIZZA\bin\Debug\FFO PIZZA.exe.config
+c:\users\bregza1309\documents\visual studio 2013\Projects\FFO PIZZA\FFO PIZZA\bin\Debug\FFO PIZZA.exe
+c:\users\bregza1309\documents\visual studio 2013\Projects\FFO PIZZA\FFO PIZZA\bin\Debug\FFO PIZZA.pdb
+c:\users\bregza1309\documents\visual studio 2013\Projects\FFO PIZZA\FFO PIZZA\bin\Debug\FFO PIZZA.xml
+c:\users\bregza1309\documents\visual studio 2013\Projects\FFO PIZZA\FFO PIZZA\obj\Debug\FFO_PIZZA.ADD_ONS.resources
+c:\users\bregza1309\documents\visual studio 2013\Projects\FFO PIZZA\FFO PIZZA\obj\Debug\FFO_PIZZA.CART.resources
+c:\users\bregza1309\documents\visual studio 2013\Projects\FFO PIZZA\FFO PIZZA\obj\Debug\FFO_PIZZA.Form1.resources
+c:\users\bregza1309\documents\visual studio 2013\Projects\FFO PIZZA\FFO PIZZA\obj\Debug\FFO_PIZZA.Resources.resources
+c:\users\bregza1309\documents\visual studio 2013\Projects\FFO PIZZA\FFO PIZZA\obj\Debug\FFO_PIZZA.PIZZA.resources
+c:\users\bregza1309\documents\visual studio 2013\Projects\FFO PIZZA\FFO PIZZA\obj\Debug\FFO PIZZA.vbproj.GenerateResource.Cache
+c:\users\bregza1309\documents\visual studio 2013\Projects\FFO PIZZA\FFO PIZZA\obj\Debug\FFO PIZZA.exe
+c:\users\bregza1309\documents\visual studio 2013\Projects\FFO PIZZA\FFO PIZZA\obj\Debug\FFO PIZZA.xml
+c:\users\bregza1309\documents\visual studio 2013\Projects\FFO PIZZA\FFO PIZZA\obj\Debug\FFO PIZZA.pdb
+C:\Users\Bregza1309\documents\visual studio 2013\Projects\FFO PIZZA\FFO PIZZA\obj\Debug\FFO_PIZZA.cashier.resources
+C:\Users\Bregza1309\Desktop\FFO PIZZA\FFO PIZZA\obj\Debug\FFO_PIZZA.ADD_ONS.resources
+C:\Users\Bregza1309\Desktop\FFO PIZZA\FFO PIZZA\obj\Debug\FFO_PIZZA.CART.resources
+C:\Users\Bregza1309\Desktop\FFO PIZZA\FFO PIZZA\obj\Debug\FFO_PIZZA.cashier.resources
+C:\Users\Bregza1309\Desktop\FFO PIZZA\FFO PIZZA\obj\Debug\FFO_PIZZA.Form1.resources
+C:\Users\Bregza1309\Desktop\FFO PIZZA\FFO PIZZA\obj\Debug\FFO_PIZZA.Resources.resources
+C:\Users\Bregza1309\Desktop\FFO PIZZA\FFO PIZZA\obj\Debug\FFO_PIZZA.PIZZA.resources
+C:\Users\Bregza1309\Desktop\FFO PIZZA\FFO PIZZA\obj\Debug\FFO PIZZA.vbproj.GenerateResource.Cache
+C:\Users\Bregza1309\Desktop\FFO PIZZA\FFO PIZZA\bin\Debug\ME.exe.config
+C:\Users\Bregza1309\Desktop\FFO PIZZA\FFO PIZZA\bin\Debug\ME.exe
+C:\Users\Bregza1309\Desktop\FFO PIZZA\FFO PIZZA\bin\Debug\ME.pdb
+C:\Users\Bregza1309\Desktop\FFO PIZZA\FFO PIZZA\bin\Debug\ME.xml
+C:\Users\Bregza1309\Desktop\FFO PIZZA\FFO PIZZA\obj\Debug\ME.exe
+C:\Users\Bregza1309\Desktop\FFO PIZZA\FFO PIZZA\obj\Debug\ME.xml
+C:\Users\Bregza1309\Desktop\FFO PIZZA\FFO PIZZA\obj\Debug\ME.pdb
