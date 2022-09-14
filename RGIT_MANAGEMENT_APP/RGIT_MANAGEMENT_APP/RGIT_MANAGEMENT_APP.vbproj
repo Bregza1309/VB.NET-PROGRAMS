@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3CF33A4E-90E7-434E-B879-B9BF5A79FA02}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>RGIT_MANAGEMENT_APP.My.MyApplication</StartupObject>
+    <RootNamespace>RGIT_MANAGEMENT_APP</RootNamespace>
+    <AssemblyName>RGIT_MANAGEMENT_APP</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>RGIT_MANAGEMENT_APP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>RGIT_MANAGEMENT_APP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADD_EMPLOYEES.Designer.vb">
+      <DependentUpon>ADD_EMPLOYEES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADD_EMPLOYEES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN-MENU.Designer.vb">
+      <DependentUpon>ADMIN-MENU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN-MENU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN_PROFILE.Designer.vb">
+      <DependentUpon>ADMIN_PROFILE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN_PROFILE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AUTHENTICATION.Designer.vb">
+      <DependentUpon>AUTHENTICATION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AUTHENTICATION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DISPLAY_USERS.Designer.vb">
+      <DependentUpon>DISPLAY_USERS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DISPLAY_USERS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORGOT_PASSWORD.Designer.vb">
+      <DependentUpon>FORGOT_PASSWORD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORGOT_PASSWORD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loading_form.Designer.vb">
+      <DependentUpon>loading_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="loading_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USER-MENU.Designer.vb">
+      <DependentUpon>USER-MENU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USER-MENU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USERS.Designer.vb">
+      <DependentUpon>USERS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USERS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COURSE_MANAGEMENT.Designer.vb">
+      <DependentUpon>COURSE_MANAGEMENT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="COURSE_MANAGEMENT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EMPLOYEE-MANAGEMENT.Designer.vb">
+      <DependentUpon>EMPLOYEE-MANAGEMENT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EMPLOYEE-MANAGEMENT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FEES_MANAGEMENT.Designer.vb">
+      <DependentUpon>FEES_MANAGEMENT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FEES_MANAGEMENT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SALARIES.Designer.vb">
+      <DependentUpon>SALARIES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SALARIES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SALARY_MANAGEMENT.Designer.vb">
+      <DependentUpon>SALARY_MANAGEMENT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SALARY_MANAGEMENT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="students.Designer.vb">
+      <DependentUpon>students.vb</DependentUpon>
+    </Compile>
+    <Compile Include="students.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="user_profile.Designer.vb">
+      <DependentUpon>user_profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="user_profile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ADD_EMPLOYEES.resx">
+      <DependentUpon>ADD_EMPLOYEES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN-MENU.resx">
+      <DependentUpon>ADMIN-MENU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN_PROFILE.resx">
+      <DependentUpon>ADMIN_PROFILE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AUTHENTICATION.resx">
+      <DependentUpon>AUTHENTICATION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DISPLAY_USERS.resx">
+      <DependentUpon>DISPLAY_USERS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORGOT_PASSWORD.resx">
+      <DependentUpon>FORGOT_PASSWORD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loading_form.resx">
+      <DependentUpon>loading_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USER-MENU.resx">
+      <DependentUpon>USER-MENU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USERS.resx">
+      <DependentUpon>USERS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COURSE_MANAGEMENT.resx">
+      <DependentUpon>COURSE_MANAGEMENT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMPLOYEE-MANAGEMENT.resx">
+      <DependentUpon>EMPLOYEE-MANAGEMENT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FEES_MANAGEMENT.resx">
+      <DependentUpon>FEES_MANAGEMENT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SALARIES.resx">
+      <DependentUpon>SALARIES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SALARY_MANAGEMENT.resx">
+      <DependentUpon>SALARY_MANAGEMENT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="students.resx">
+      <DependentUpon>students.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_profile.resx">
+      <DependentUpon>user_profile.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
